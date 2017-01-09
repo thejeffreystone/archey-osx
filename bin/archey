@@ -73,7 +73,7 @@ if [[ "${opt_offline}" = f ]]; then
             ip="$line"
         done < "$ipfile"
     else
-        ip=$(curl -sS ipconfig.co)
+        ip=$(curl -sS ifconfig.co)
         echo $ip > "$ipfile"
     fi
 fi
