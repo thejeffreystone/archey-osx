@@ -1,4 +1,16 @@
 # Change Log
+## [1.6.1](https://github.com/thejeffreystone/archey-osx/releases/tag/v1.6.1)
+
+This marks the first release of my version which will be forked and now diverge from
+(https://github.com/obihann/archey-osx). I have not decided if I will try to add it to homebrew, so for the time
+being it will be just a plain binary.  
+
+- Cleaned up README to remove any information that is not relevant to this release.
+
+**Fixed Bugs**
+- Switched to ifconfig.co for ip address since eth0.me no longer responds.
+
+
 
 ## [1.6.0](https://github.com/obihann/archey-osx/tree/1.6.0) (2016-04-04)
 [Full Changelog](https://github.com/obihann/archey-osx/compare/1.6.0-pr...1.6.0)
